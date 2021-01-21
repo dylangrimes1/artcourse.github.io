@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<title>Art Course</title>
 	<!-- General CSS -->
-	<link rel="stylesheet" href="css/generalcss.css">
+	<link rel="stylesheet" href="css/indexcss.css">
 	<!-- Header Stylesheet -->
 	<link rel="stylesheet" href="css/headerstyles.css">
 	<!-- Slideshow Stylesheets -->
@@ -16,29 +16,37 @@
 <!-- BODY -->
 
 <body>
+<div class="website">
 <!-- Header Container -->
 <div class="header">
-  <a href="#default" class="logo"><img src="images/petroclogo.jpg" alt="logo" style="width:170px;height:55px;""</a>
+  <a href="#default" class="logo">Illustration Course</a>
   <div class="header-right">
     <a class="active" href="#home">Home</a>
-    <a href="students.html">Students</a>
+    <a class="inactive" href="students.html">Students</a>
   </div>
-</div>
+  </div>
+<div style="	background-image: url('images/background.jpg');
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;">
+
 
 
 <br><br>
-
-<!-- Header one -->
 <div class="header-one">
-<h1>Petroc Art Course</h1>
+<h2>Foundation Degree in Illustration</h2>
+<h1>The Big Art Show 21</h1>
 </div>
-<br><br>
+
+<br>
 <!-- Slideshow container -->
-<div class="slideshow-container">
+<div class="slideshow-container"az>
 
   <!-- Full-width images with number and caption text -->
   
-  <div class="mySlides fade">
+  <div class="mySlides fade" style="display: block;">
     <div class="numbertext">1 / 3</div>
     <img src="images/img1.jpg" style="width:100%">
     <div class="text">Caption Text</div>
@@ -68,7 +76,25 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+<br>
+<div class="about">
+<h3>About the course<h3>
+<!-- Lorum Ipsum place holder -->
+<p>This course develops professional skills within the design field of illustration and embraces visual communication. As a visually dynamic means of communication, illustration uses traditional approaches, new technologies and operates across all platforms. We aim to build confidence, broaden horizons and challenge thinking to enable students to respond, create, invent, explore and resolve ideas.<p>
+  <a href="https://www.petroc.ac.uk/content/courses/art-music/foundation-degree-in-illustration-full-time-north-devon-sept-start"><button type="button">Apply Now</button></a>
+</div>
+<br><br>
 
+
+<div class="location">
+<h3> Where to find us </h3>
+<a href="https://www.google.co.uk/maps/place/Petroc+(Brannams)/@51.0640277,-4.0843044,17z/data=!3m1!4b1!4m5!3m4!1s0x486c3a564540aa35:0x79cef0501a61dfa5!8m2!3d51.0640243!4d-4.0821157"><img src="images/map.jpg" alt="map" class="center"></a>
+<br>
+<br>
+<p class="address"> Petroc Brannams Campus <br> Oakwood Close <br> Rounswell Business Park <br> Barnstaple <br> EX31 3NJ</p>
+</div>
+</div>
+</div>
 </body>
 
 </html>
